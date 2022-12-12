@@ -34,6 +34,11 @@
     backdrop-filter: blur(20px) !important;
 }
 
+.nav-menu {
+    position: sticky;
+    top: 20;
+}
+
 
 @media (max-width:1100px) {
     .navbar--container{
