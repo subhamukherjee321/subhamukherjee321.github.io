@@ -137,6 +137,7 @@ function Navbar() {
 
         <IoMenuSharp
           className={classes.navMenu}
+          style={{ position: "fixed", left: 1250 }}
           onClick={handleDrawerOpen}
           aria-label="Menu"
         />
@@ -190,6 +191,26 @@ function Navbar() {
                 <div className={classes.drawerItem}>
                   <FaUser className={classes.drawerIcon} />
                   <span className={classes.drawerLinks}>About</span>
+                </div>
+              </NavLink>
+            </Fade>
+
+            <Fade left>
+              <NavLink to="/" smooth={true} spy="true" duration={2000}>
+                <div className={classes.drawerItem}>
+                  <HiDocumentText className={classes.drawerIcon} />
+                  {/* <span className={classes.drawerLinks}>Resume</span> */}
+                  {headerData.resumePdf && (
+                    <a
+                      href={headerData.resumePdf}
+                      download="resume"
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{ textDecoration: "none", color: "#823AE0" }}
+                    >
+                      <span className={classes.drawerLinks}>Resume</span>
+                    </a>
+                  )}
                 </div>
               </NavLink>
             </Fade>
