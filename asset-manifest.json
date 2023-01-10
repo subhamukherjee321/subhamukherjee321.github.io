@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.a6b6092d.chunk.css",
-    "main.js": "/static/js/main.167025a2.chunk.js",
-    "main.js.map": "/static/js/main.167025a2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.36c0c1d2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.36c0c1d2.js.map",
+    "main.css": "/static/css/main.fe6f0b1b.chunk.css",
+    "main.js": "/static/js/main.372ea523.chunk.js",
+    "main.js.map": "/static/js/main.372ea523.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2255b8be.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2255b8be.js.map",
     "static/css/2.19627560.chunk.css": "/static/css/2.19627560.chunk.css",
-    "static/js/2.4535651e.chunk.js": "/static/js/2.4535651e.chunk.js",
-    "static/js/2.4535651e.chunk.js.map": "/static/js/2.4535651e.chunk.js.map",
-    "static/js/3.f2f06371.chunk.js": "/static/js/3.f2f06371.chunk.js",
-    "static/js/3.f2f06371.chunk.js.map": "/static/js/3.f2f06371.chunk.js.map",
+    "static/js/2.7dc3882e.chunk.js": "/static/js/2.7dc3882e.chunk.js",
+    "static/js/2.7dc3882e.chunk.js.map": "/static/js/2.7dc3882e.chunk.js.map",
+    "static/js/3.8b2da382.chunk.js": "/static/js/3.8b2da382.chunk.js",
+    "static/js/3.8b2da382.chunk.js.map": "/static/js/3.8b2da382.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.19627560.chunk.css.map": "/static/css/2.19627560.chunk.css.map",
-    "static/css/main.a6b6092d.chunk.css.map": "/static/css/main.a6b6092d.chunk.css.map",
-    "static/js/2.4535651e.chunk.js.LICENSE.txt": "/static/js/2.4535651e.chunk.js.LICENSE.txt",
+    "static/css/main.fe6f0b1b.chunk.css.map": "/static/css/main.fe6f0b1b.chunk.css.map",
+    "static/js/2.7dc3882e.chunk.js.LICENSE.txt": "/static/js/2.7dc3882e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/BestermindRegular.e58a1922.ttf",
     "static/media/Subha-Mukherjee-Resume.acb6336a.pdf": "/static/media/Subha-Mukherjee-Resume.acb6336a.pdf",
     "static/media/Subha.36babe24.jpg": "/static/media/Subha.36babe24.jpg",
@@ -146,10 +146,10 @@
     "static/media/yellowTheme-girl.641f7b0b.svg": "/static/media/yellowTheme-girl.641f7b0b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.36c0c1d2.js",
+    "static/js/runtime-main.2255b8be.js",
     "static/css/2.19627560.chunk.css",
-    "static/js/2.4535651e.chunk.js",
-    "static/css/main.a6b6092d.chunk.css",
-    "static/js/main.167025a2.chunk.js"
+    "static/js/2.7dc3882e.chunk.js",
+    "static/css/main.fe6f0b1b.chunk.css",
+    "static/js/main.372ea523.chunk.js"
   ]
 }
