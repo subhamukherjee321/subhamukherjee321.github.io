@@ -31,6 +31,8 @@ function Navbar() {
 
   const useStyles = makeStyles((t) => ({
     navMenu: {
+      position: "fixed",
+      right: 66,
       fontSize: "2.5rem",
       color: theme.tertiary,
       cursor: "pointer",
@@ -137,7 +139,7 @@ function Navbar() {
 
         <IoMenuSharp
           className={classes.navMenu}
-          style={{ position: "fixed", left: 1250 }}
+          // style={{ position: "fixed", left: 1265 }}
           onClick={handleDrawerOpen}
           aria-label="Menu"
         />
@@ -232,6 +234,25 @@ function Navbar() {
                 </div>
               </NavLink>
             </Fade>
+
+            <Fade left>
+              <NavLink to="/#project" smooth={true} spy="true" duration={2000}>
+                <div className={classes.drawerItem}>
+                  <BsFillGearFill className={classes.drawerIcon} />
+                  <span className={classes.drawerLinks}>Projects</span>
+                </div>
+              </NavLink>
+            </Fade>
+
+            <Fade left>
+              <NavLink to="/#github" smooth={true} spy="true" duration={2000}>
+                <div className={classes.drawerItem}>
+                  <BsFillGearFill className={classes.drawerIcon} />
+                  <span className={classes.drawerLinks}>Github</span>
+                </div>
+              </NavLink>
+            </Fade>
+
             <Fade left>
               <NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>
                 <div className={classes.drawerItem}>

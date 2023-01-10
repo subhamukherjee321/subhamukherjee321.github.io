@@ -1,0 +1,30 @@
+.github {
+  margin: auto;
+  background: #212121;
+  text-align: center;
+  color: white;
+  font-family: var(--primaryFont);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+/* Medium screens */
+@media all and (min-width: 401px) and (max-width: 800px) {
+    
+}
+
+/* Small screens */
+@media all and (min-width: 100px) and (max-width: 400px) {
+    .image{
+        width: 35%;
+        padding: 0 1rem;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .image>img {
+        width: 80%;
+    }
+}

@@ -1,19 +1,19 @@
 import React from "react";
+import { useContext } from "react";
 import GithubCalendar from "react-github-calendar";
+import { ThemeContext } from "../../contexts/ThemeContext";
+import "./Github.css";
 
 function Github() {
+  const { theme } = useContext(ThemeContext);
   return (
     <div
-      style={{
-        margin: "auto",
-        background: "#212121",
-        textAlign: "center",
-        color: "white",
-      }}
+      className="github"
     >
-      <h2 heading="Github" after="Calender & Statistics" />
+      <h1 style={{color: theme.primary}}>GITHUB</h1>
       <div>
         <GithubCalendar
+          className="gitcal"
           username="subhamukherjee321"
           year={new Date().getFullYear()}
           blockSize={15}
@@ -27,6 +27,7 @@ function Github() {
           href="https://github.com/subhamukherjee321"
           rel="noreferrer"
           target="_blank"
+          className="image"
         >
           <img
             alt="7oSkaaa's Github Stats"
@@ -38,6 +39,7 @@ function Github() {
           href="https://github.com/subhamukherjee321"
           rel="noreferrer"
           target="_blank"
+          className="image"
         >
           <img
             alt="7oSkaaa's Github Stats"
