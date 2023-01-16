@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.caf2000f.chunk.css",
-    "main.js": "/static/js/main.17cb053c.chunk.js",
-    "main.js.map": "/static/js/main.17cb053c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2255b8be.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2255b8be.js.map",
+    "main.js": "/static/js/main.ca262862.chunk.js",
+    "main.js.map": "/static/js/main.ca262862.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.38af413a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.38af413a.js.map",
     "static/css/2.19627560.chunk.css": "/static/css/2.19627560.chunk.css",
-    "static/js/2.c19a52c3.chunk.js": "/static/js/2.c19a52c3.chunk.js",
-    "static/js/2.c19a52c3.chunk.js.map": "/static/js/2.c19a52c3.chunk.js.map",
-    "static/js/3.8b2da382.chunk.js": "/static/js/3.8b2da382.chunk.js",
-    "static/js/3.8b2da382.chunk.js.map": "/static/js/3.8b2da382.chunk.js.map",
+    "static/js/2.db51cd11.chunk.js": "/static/js/2.db51cd11.chunk.js",
+    "static/js/2.db51cd11.chunk.js.map": "/static/js/2.db51cd11.chunk.js.map",
+    "static/js/3.ee6e93ba.chunk.js": "/static/js/3.ee6e93ba.chunk.js",
+    "static/js/3.ee6e93ba.chunk.js.map": "/static/js/3.ee6e93ba.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.19627560.chunk.css.map": "/static/css/2.19627560.chunk.css.map",
     "static/css/main.caf2000f.chunk.css.map": "/static/css/main.caf2000f.chunk.css.map",
-    "static/js/2.c19a52c3.chunk.js.LICENSE.txt": "/static/js/2.c19a52c3.chunk.js.LICENSE.txt",
+    "static/js/2.db51cd11.chunk.js.LICENSE.txt": "/static/js/2.db51cd11.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/BestermindRegular.e58a1922.ttf",
-    "static/media/Subha-Mukherjee-Resume.acb6336a.pdf": "/static/media/Subha-Mukherjee-Resume.acb6336a.pdf",
+    "static/media/Subha-Mukherjee-Resume.9b67ff16.pdf": "/static/media/Subha-Mukherjee-Resume.9b67ff16.pdf",
     "static/media/Subha.36babe24.jpg": "/static/media/Subha.36babe24.jpg",
     "static/media/adobe-xd.a6dca99d.svg": "/static/media/adobe-xd.a6dca99d.svg",
     "static/media/adobeaudition.afa937d5.svg": "/static/media/adobeaudition.afa937d5.svg",
@@ -149,10 +149,10 @@
     "static/media/yellowTheme-girl.641f7b0b.svg": "/static/media/yellowTheme-girl.641f7b0b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2255b8be.js",
+    "static/js/runtime-main.38af413a.js",
     "static/css/2.19627560.chunk.css",
-    "static/js/2.c19a52c3.chunk.js",
+    "static/js/2.db51cd11.chunk.js",
     "static/css/main.caf2000f.chunk.css",
-    "static/js/main.17cb053c.chunk.js"
+    "static/js/main.ca262862.chunk.js"
   ]
 }
