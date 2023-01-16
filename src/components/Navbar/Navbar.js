@@ -1,11 +1,14 @@
 import React, { useContext, useState } from "react";
 import { NavHashLink as NavLink } from "react-router-hash-link";
 import Fade from "react-reveal/Fade";
+import { Button } from "@material-ui/core";
 import { IoMenuSharp, IoHomeSharp } from "react-icons/io5";
-import { HiDocumentText } from "react-icons/hi";
-import { BsFillGearFill } from "react-icons/bs";
+import { FaBeer } from "react-icons/fa";
+import { AiOutlineFundProjectionScreen, AiFillGithub } from "react-icons/ai";
+import { RiPagesLine } from "react-icons/ri";
 import { MdPhone } from "react-icons/md";
-import { FaUser, FaFolderOpen } from "react-icons/fa";
+import { FaUserTie, FaFolderOpen } from "react-icons/fa";
+import { GiSkills } from "react-icons/gi";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import CloseIcon from "@material-ui/icons/Close";
@@ -32,7 +35,7 @@ function Navbar() {
   const useStyles = makeStyles((t) => ({
     navMenu: {
       position: "fixed",
-      right: 66,
+      right: 23,
       fontSize: "2.5rem",
       color: theme.tertiary,
       cursor: "pointer",
@@ -139,7 +142,6 @@ function Navbar() {
 
         <IoMenuSharp
           className={classes.navMenu}
-          // style={{ position: "fixed", left: 1265 }}
           onClick={handleDrawerOpen}
           aria-label="Menu"
         />
@@ -182,7 +184,6 @@ function Navbar() {
               <NavLink to="/" smooth={true} spy="true" duration={2000}>
                 <div className={classes.drawerItem}>
                   <IoHomeSharp className={classes.drawerIcon} />
-                  ``
                   <span className={classes.drawerLinks}>Home</span>
                 </div>
               </NavLink>
@@ -191,7 +192,7 @@ function Navbar() {
             <Fade left>
               <NavLink to="/#about" smooth={true} spy="true" duration={2000}>
                 <div className={classes.drawerItem}>
-                  <FaUser className={classes.drawerIcon} />
+                  <FaUserTie className={classes.drawerIcon} />
                   <span className={classes.drawerLinks}>About</span>
                 </div>
               </NavLink>
@@ -200,55 +201,36 @@ function Navbar() {
             <Fade left>
               <NavLink to="/" smooth={true} spy="true" duration={2000}>
                 <div className={classes.drawerItem}>
-                  <HiDocumentText className={classes.drawerIcon} />
-                  {/* <span className={classes.drawerLinks}>Resume</span> */}
-                  {headerData.resumePdf && (
-                    <a
-                      href={headerData.resumePdf}
-                      download="resume"
-                      target="_blank"
-                      rel="noreferrer"
-                      style={{ textDecoration: "none", color: "#823AE0" }}
-                    >
-                      <span className={classes.drawerLinks}>Resume</span>
-                    </a>
-                  )}
+                  <RiPagesLine className={classes.drawerIcon} />
+                  <span className={classes.drawerLinks}>Resume</span>
                 </div>
               </NavLink>
+              {/* {headerData.resumePdf && (
+                <div className={classes.drawerItem}>
+                  <FaUserTie className={classes.drawerIcon} />
+                  <a
+                  href={headerData.resumePdf}
+                  download="Subha-Mukherjee-Resume"
+                  target="_blank"
+                  rel="noreferrer"
+                  className={classes.drawerLinks }
+                  style={{textDecoration: "none", color: theme.primary, "&:hover": {
+                    color: theme.secondary
+                  }}}
+                > */}
+                  {/* <span className={classes.resumeBtn}>Resume</span>
+                </a>
+                </div>
+              )} */}
             </Fade>
 
             <Fade left>
-              <NavLink to="/#resume" smooth={true} spy="true" duration={2000}>
+              <NavLink to="/#projects" smooth={true} spy="true" duration={2000}>
                 <div className={classes.drawerItem}>
-                  <HiDocumentText className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Education</span>
-                </div>
-              </NavLink>
-            </Fade>
-
-            <Fade left>
-              <NavLink to="/#skill" smooth={true} spy="true" duration={2000}>
-                <div className={classes.drawerItem}>
-                  <BsFillGearFill className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Skills</span>
-                </div>
-              </NavLink>
-            </Fade>
-
-            <Fade left>
-              <NavLink to="/#project" smooth={true} spy="true" duration={2000}>
-                <div className={classes.drawerItem}>
-                  <BsFillGearFill className={classes.drawerIcon} />
+                  <AiOutlineFundProjectionScreen
+                    className={classes.drawerIcon}
+                  />
                   <span className={classes.drawerLinks}>Projects</span>
-                </div>
-              </NavLink>
-            </Fade>
-
-            <Fade left>
-              <NavLink to="/#github" smooth={true} spy="true" duration={2000}>
-                <div className={classes.drawerItem}>
-                  <BsFillGearFill className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Github</span>
                 </div>
               </NavLink>
             </Fade>
