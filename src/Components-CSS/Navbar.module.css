@@ -1,0 +1,84 @@
+.container {
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+  padding: 3px 100px;
+  box-shadow: 0px 1px 5px #8d8d8d;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section > ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+.section > ul > li {
+  margin-left: 60px;
+}
+
+.logo {
+  color: #e9204f;
+  cursor: pointer;
+}
+
+.logo > h1 {
+  font-size: 2.7rem;
+  font-family: "Dancing Script", cursive;
+}
+
+.section > ul > li > a {
+  font-weight: bold;
+  color: black;
+}
+.section > ul > li:hover {
+  color: #e9204f;
+}
+.manu {
+  display: none;
+}
+
+.li_link :hover {
+  color: red;
+}
+
+@media screen and (max-width: 996px) {
+  .section > ul > li {
+    margin-left: 40px;
+  }
+  .container {
+    padding: 5px 3rem;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .section > ul > li {
+    margin-left: 30px;
+  }
+  .container {
+    padding: 5px 3rem;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .container {
+    padding: 5px 2rem;
+  }
+}
+
+@media screen and (max-width: 636px) {
+  .container {
+    padding: 0px 2rem;
+  }
+  .section {
+    display: none;
+  }
+  .manu {
+    display: block;
+  }
+}

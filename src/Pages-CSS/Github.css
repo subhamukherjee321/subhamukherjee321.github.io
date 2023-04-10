@@ -1,0 +1,75 @@
+.github {
+  margin: auto;
+  text-align: center;
+  color: black;
+  margin-bottom: 15rem;
+  width: 100%;
+}
+
+.gitcal {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.gitflex {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+/* Medium screens */
+@media all and (min-width: 401px) and (max-width: 800px) {
+    .gitflex {
+        display: block;
+        text-align: center;
+        width: 61%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .github  {
+        margin-bottom: 5rem;
+    }
+}
+
+/* Small screens */
+@media all and (min-width: 100px) and (max-width: 400px) {
+  .github {
+    margin-bottom: 2.5rem;
+  }
+  .image {
+    width: 35%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  .image > img {
+    width: 80%;
+  }
+
+  .gitcal {
+    width: 100%;
+  }
+
+  .gitflex {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 120%;
+    margin-left: 0.5rem;
+  }
+
+  .gitflex > a {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+  }
+}

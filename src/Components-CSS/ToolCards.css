@@ -1,0 +1,58 @@
+.container {
+  min-height: 100px;
+  cursor: pointer;
+  box-shadow: 1px 1px 8px gray;
+  position: relative;
+}
+
+.logo {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo:hover .name {
+  display: block;
+}
+
+.name {
+  padding: 10px 8px;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  /* display: none; */
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  left: 5px;
+  top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.name > h3 {
+  font-weight: bolder;
+  color: white;
+}
+
+/* .container:hover > .name{
+    display: block;
+} */
+.container:hover .name {
+  display: block;
+}
+
+.icon {
+  width: 70%;
+  height: 70%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: orange; */
+  font-size: 70px;
+}

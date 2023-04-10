@@ -1,0 +1,10 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* top: 0; */
+    transition: all 0.4s ease;
+}

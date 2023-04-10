@@ -1,0 +1,162 @@
+.container{
+    min-height: 200px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 12px gray;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.container > div{
+
+    width: 50%;
+    min-height: 400px;
+}
+
+.projectPoster{
+    position: absolute;
+    top: 30px;
+    left: -80px;
+    box-shadow: 1px 1px 12px gray;
+    background-color: white;
+}
+.projectPoster > img{
+    width: 100%;
+    min-height: 400px;
+}
+
+.projectDescription{
+    /* border : 1px solid black; */
+    padding: 10px 20px;
+}
+
+.projectDescription > h1{
+    font-size: 32px;
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+
+.projectDescription > h1 + p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.boxTStack{
+    width : 100%;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+}
+.buttons{
+  
+    width : 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxTStack > h3{
+    font-size: 21px;
+    text-align: center;
+    /* margin-bottom: 10px; */
+    font-weight: bold;
+}
+
+.boxTStack > p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.frontendTS, .backendTS{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+.frontendTS{
+  margin-bottom: 5px;
+}
+.frontendTS > div, .backendTS > div{
+    border: 1px solid black;
+    height: 40px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons > *{
+    margin: 0 20px;
+}
+
+@media screen and (max-width : 1189px) {
+    .container{
+        flex-direction: column;
+        min-height: 850px;
+        margin-bottom: 100px;
+        padding: 0;
+    }
+ 
+    .container > div{
+
+        width: 80%;
+        /* min-height: 400px; */
+        /* border: 1px solid red; */
+    }
+    .projectPoster{
+        left: 10%;
+        top: -60px;
+        width: 80%;
+      }
+}
+
+@media screen and (max-width : 565px) {
+    .projectDescription > h1 + p{
+        text-align: justify;
+        /* margin-bottom: 20px; */
+    }
+}
+
+@media screen and (max-width : 437px) {
+    .container > div{
+     height: 200px;
+    }
+}
+
+@media screen and (max-width : 441px) {
+    .container > div:last-child{
+
+        width: 100%;
+        /* min-height: 400px; */
+        /* border: 1px solid red; */
+    }
+
+    .container{
+        padding: 30px 5px;
+    }
+    .projectDescription{
+        position: relative;
+        bottom: 20px;
+    }
+}
+
+@media screen and (max-width : 387px) {
+  
+    .projectDescription{
+        position: relative;
+        bottom: 50px;
+    }
+}
+
+@media screen and (max-width : 371px) {
+  
+    .projectDescription{
+
+        bottom: 80px;
+    }
+}

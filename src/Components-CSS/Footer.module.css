@@ -1,0 +1,137 @@
+.container{
+    margin-top: auto;
+    background-color: #E9204F;
+    width: 100%;
+    min-height: 100px;
+    padding-top: 20px;
+    position: relative;
+    /* z-index: -10; */
+}
+
+.inner_footer{
+    width: 100%;
+    min-height: 200px;
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* gap: 20px; */
+    z-index: -10;
+}
+
+.inner_footer > div{
+    min-height: 200px;
+}
+
+.contact{
+    background-color: #141414;
+    position: relative;
+    padding: 20px 50px 100px 80px;
+    /* border: 1px solid red; */
+    /* z-index: 100; */
+    /* margin-bottom: 30px; */
+}
+
+.contact::after{
+    content: "";
+    width: 50%;
+    background-color: #141414;
+    height: 200px;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    z-index: 0;
+    transform:skewY(-30deg);
+
+}
+.contact::before{
+    content: "";
+    width: 50%;
+    background-color: #141414;
+    height: 200px;
+    position: absolute;
+    top: -136px;
+    right: 0;
+   z-index: 0;
+    transform:skewY(20deg);
+  
+}
+
+.map{
+    height: 300px;
+}
+.footer_details{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.social{
+    height: 300px;
+}
+
+.map > iframe{
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+.social{
+    /* border: 1px solid red;*/
+    padding: 30px; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.social_control{
+    width: 100%;
+    /* border: 1px solid white; */
+    padding: 10px 0;
+    margin-bottom: 5px;
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-start; */
+}
+
+.social_control > a{
+    width: 100%;
+    /* border: 1px solid white; */
+    /* padding: 10px 0; */
+    /* margin-bottom: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.social_control > a > p{
+    color: white;
+    font-size: 20px;
+}
+
+.social_control > a:hover{
+    color: #EDFDFD;
+}
+
+@media screen and (max-width : 1164px) {
+    .inner_footer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contact::after{
+        display: none;
+    }
+    .contact::before{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width : 688px) {
+    .social{
+        grid-template-columns: 1fr;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width : 530px) {
+    .contact{
+        padding: 20px 20px 40px;
+    }
+}
