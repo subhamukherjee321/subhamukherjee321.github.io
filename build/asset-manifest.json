@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/subhamukherjee321.github.io/static/css/main.858e635a.css",
-    "main.js": "/subhamukherjee321.github.io/static/js/main.1eebad24.js",
-    "static/media/Me.jpg": "/subhamukherjee321.github.io/static/media/Me.35edfffec46e9f077c96.jpg",
-    "static/media/coding.jpg": "/subhamukherjee321.github.io/static/media/coding.0a4893421f4eb80a395c.jpg",
-    "static/media/Programming.gif": "/subhamukherjee321.github.io/static/media/Programming.385b1774afb164e535fc.gif",
-    "index.html": "/subhamukherjee321.github.io/index.html",
-    "main.858e635a.css.map": "/subhamukherjee321.github.io/static/css/main.858e635a.css.map",
-    "main.1eebad24.js.map": "/subhamukherjee321.github.io/static/js/main.1eebad24.js.map"
+    "main.css": "/static/css/main.858e635a.css",
+    "main.js": "/static/js/main.59974521.js",
+    "static/media/Me.jpg": "/static/media/Me.35edfffec46e9f077c96.jpg",
+    "static/media/coding.jpg": "/static/media/coding.0a4893421f4eb80a395c.jpg",
+    "static/media/Programming.gif": "/static/media/Programming.385b1774afb164e535fc.gif",
+    "index.html": "/index.html",
+    "main.858e635a.css.map": "/static/css/main.858e635a.css.map",
+    "main.59974521.js.map": "/static/js/main.59974521.js.map"
   },
   "entrypoints": [
     "static/css/main.858e635a.css",
-    "static/js/main.1eebad24.js"
+    "static/js/main.59974521.js"
   ]
 }

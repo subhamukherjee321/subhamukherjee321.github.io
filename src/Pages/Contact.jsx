@@ -14,7 +14,7 @@ export default function Contact() {
         <p>Don’t Hesitate To Contact With Me</p>
       </div>
 
-      <form action="" className={Style.form}>
+      <form action="https://getform.io/f/a70e94d7-9983-418c-b946-8a2bf01023c7" method="POST" className={Style.form}>
         <div className={Style.div_control}>
           <input
             type="text"
